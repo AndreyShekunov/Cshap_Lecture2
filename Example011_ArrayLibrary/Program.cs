@@ -2,7 +2,7 @@
 // Тренируем как можно создать метод туда включить массив и заполнить его
 // нужным колличеством элементов.
 
-void FillArray(int[] collection)
+void FillArray(int[] collection) // метод заполнения массива с помощью случайных чисел
 {
     int length = collection.Length;
     int index = 0;
@@ -14,7 +14,7 @@ void FillArray(int[] collection)
     }
 }
 
-void PrintArray(int[] col)
+void PrintArray(int[] col) // метод вывода массива в терминал в стобик
 {
     int count = col.Length;
     int position = 0;
@@ -25,7 +25,7 @@ void PrintArray(int[] col)
     }
 }
 
-int IndexOf(int[] collection, int find)
+int IndexOf(int[] collection, int find) // метод поиска заданного значения find в массиве и возврат индекса найдена элемента
 {
     int count = collection.Length;
     int index = 0;
